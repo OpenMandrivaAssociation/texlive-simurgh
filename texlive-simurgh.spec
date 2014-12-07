@@ -6,7 +6,7 @@
 # catalog-version 0.01b
 Name:		texlive-simurgh
 Version:	0.01b
-Release:	7
+Release:	8
 Summary:	Typeset Parsi in LuaLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/luatex/latex/simurgh
