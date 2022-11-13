@@ -1,18 +1,12 @@
-# revision 31719
-# category Package
-# catalog-ctan /macros/luatex/latex/simurgh
-# catalog-date 2013-09-21 10:47:25 +0200
-# catalog-license gpl2
-# catalog-version 0.01b
 Name:		texlive-simurgh
-Version:	0.01b
-Release:	10
+Version:	31719
+Release:	1
 Summary:	Typeset Parsi in LuaLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/luatex/latex/simurgh
 License:	GPL2
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/simurgh.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/simurgh.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/simurgh.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/simurgh.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -25,12 +19,12 @@ project to produce this system is dedicated to Ferdowsi The
 Great.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -113,7 +107,7 @@ Great.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
