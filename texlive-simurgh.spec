@@ -1,6 +1,6 @@
 Name:		texlive-simurgh
 Version:	31719
-Release:	1
+Release:	2
 Summary:	Typeset Parsi in LuaLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/luatex/latex/simurgh
