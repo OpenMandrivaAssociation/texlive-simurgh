@@ -3,7 +3,7 @@ Version:	31719
 Release:	2
 Summary:	Typeset Parsi in LuaLaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/luatex/latex/simurgh
+URL:		https://www.ctan.org/tex-archive/macros/luatex/latex/simurgh
 License:	GPL2
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/simurgh.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/simurgh.doc.r%{version}.tar.xz
